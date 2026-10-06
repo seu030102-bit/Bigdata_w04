@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "n": 100000,
+      "true_distinct": 36702,
+      "exact_s": 0.3296686999965459,
+      "exact_peak_bytes": 3925492,
+      "fm_estimate": 46732.38016,
+      "fm_s": 5.125960799996392,
+      "fm_peak_bytes": 692,
+      "fm_ratio": 1.2732924679853959
+    },
+    {
+      "n": 400000,
+      "true_distinct": 146970,
+      "exact_s": 2.3972374000004493,
+      "exact_peak_bytes": 11591174,
+      "fm_estimate": 285146.7264,
+      "fm_s": 27.69551729998784,
+      "fm_peak_bytes": 692,
+      "fm_ratio": 1.9401696019595835
+    },
+    {
+      "n": 1600000,
+      "true_distinct": 587625,
+      "exact_s": 9.81509720000031,
+      "exact_peak_bytes": 46647456,
+      "fm_estimate": 1660187.6070400001,
+      "fm_s": 112.19378880001022,
+      "fm_peak_bytes": 692,
+      "fm_ratio": 2.8252501289768137
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 37.167313900004956,
+      "exact_peak_bytes": 188287414,
+      "fm_estimate": 6133822.91456,
+      "fm_s": 332.5515604999964,
+      "fm_peak_bytes": 692,
+      "fm_ratio": 2.6102384877712286
+    },
+    {
+      "n": 25000000,
+      "true_distinct": 9179304,
+      "exact_s": 87.1034110999899,
+      "exact_peak_bytes": 744828656
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python": "3.14.2",
+    "cpu": "AMD Ryzen 7 6800H with Radeon Graphics",
+    "ram_gb": 16.0
+  }
+}
